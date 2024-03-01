@@ -23,7 +23,7 @@ COPY . /app
 
 FROM python:3.11.4-slim-bullseye
 
-ARG REPO=whittlem/pycryptobot
+ARG REPO=Jonny255/pycryptobot
 
 LABEL org.opencontainers.image.source https://github.com/${REPO}
 
